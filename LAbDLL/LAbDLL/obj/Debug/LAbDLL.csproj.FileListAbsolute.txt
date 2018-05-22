@@ -5,3 +5,10 @@ c:\users\panch\source\repos\LAbDLL\LAbDLL\obj\Debug\LAbDLL.csprojResolveAssembly
 c:\users\panch\source\repos\LAbDLL\LAbDLL\obj\Debug\LAbDLL.csproj.CoreCompileInputs.cache
 c:\users\panch\source\repos\LAbDLL\LAbDLL\obj\Debug\LAbDLL.exe
 c:\users\panch\source\repos\LAbDLL\LAbDLL\obj\Debug\LAbDLL.pdb
+C:\Users\panch\Desktop\Labs en Git\municipality-library-Panchoapc\LAbDLL\LAbDLL\bin\Debug\LAbDLL.exe.config
+C:\Users\panch\Desktop\Labs en Git\municipality-library-Panchoapc\LAbDLL\LAbDLL\bin\Debug\LAbDLL.exe
+C:\Users\panch\Desktop\Labs en Git\municipality-library-Panchoapc\LAbDLL\LAbDLL\bin\Debug\LAbDLL.pdb
+C:\Users\panch\Desktop\Labs en Git\municipality-library-Panchoapc\LAbDLL\LAbDLL\obj\Debug\LAbDLL.csprojResolveAssemblyReference.cache
+C:\Users\panch\Desktop\Labs en Git\municipality-library-Panchoapc\LAbDLL\LAbDLL\obj\Debug\LAbDLL.csproj.CoreCompileInputs.cache
+C:\Users\panch\Desktop\Labs en Git\municipality-library-Panchoapc\LAbDLL\LAbDLL\obj\Debug\LAbDLL.exe
+C:\Users\panch\Desktop\Labs en Git\municipality-library-Panchoapc\LAbDLL\LAbDLL\obj\Debug\LAbDLL.pdb

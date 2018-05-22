@@ -11,7 +11,7 @@ namespace LAbDLL
     {
         static void Main(string[] args)
         {
-            Assembly assembly = Assembly.LoadFile(@"C:\Users\panch\source\repos\LAbDLL\ClassLibrary1.dll");
+            Assembly assembly = Assembly.LoadFile(@"C:\Users\panch\Desktop\Labs en Git\municipality-library-Panchoapc\LAbDLL\ClassLibrary1.dll");
             foreach (Type type in assembly.GetTypes())
             {
                 if (type.IsClass)
@@ -20,13 +20,18 @@ namespace LAbDLL
                     Console.WriteLine("Attributes: ");
                     foreach (PropertyInfo info in type.GetProperties())
                     {
-                        Console.WriteLine("\t"+info.Name);
+                        Console.WriteLine("\t+"+info.Name+ ": "+info.PropertyType.Name);
                     }
                     Console.WriteLine("Metodos: ");
                     foreach (MethodInfo info in type.GetMethods())
                     {
-                        Console.WriteLine("\t" + info.Name+ "-> RETORNA -> "+info.ReturnType.Name);
+                        Console.WriteLine("\t+"+info.Name+ "():"+info.ReturnType.Name);
+                        foreach (ParameterInfo pinfo in info.GetParameters())
+                        {
+                                Console.WriteLine("\t\tParametros: " +pinfo.ParameterType.Name +" "+pinfo.Name);
+                        }
                     }
+                    Console.WriteLine("--------------------------------------------------------------------");
 
                 }
                 else if (type.IsInterface)
